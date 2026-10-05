@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 PROJECT_DIR = Path(__file__).resolve().parent
 DATA_PATH = PROJECT_DIR / "data" / "placement.csv"
 MODEL_PATH = PROJECT_DIR / "model.pkl"
-FEATURE_COLUMNS = ["cgpa", "iq"]
+FEATURE_COLUMNS = ["cgpa", "iq", "attendance", "projects"]
 TARGET_COLUMN = "placed"
 
 
